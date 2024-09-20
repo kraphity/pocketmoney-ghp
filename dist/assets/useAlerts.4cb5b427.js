@@ -1,0 +1,1 @@
+import{N as l,n as e}from"./index.e5f886f6.js";const s=l([]),o=e(()=>s.filter(r=>r.visible)),u=e(()=>o.value.length>0);function a(r,n="Uups"){const t={title:n,text:r,color:"error",visible:!0};return s.push(t),t}function i(){return{showError:a,alerts:o,hasAnyAlert:u}}export{i as u};
